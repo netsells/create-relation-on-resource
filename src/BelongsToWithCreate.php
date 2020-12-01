@@ -1,6 +1,6 @@
 <?php
 
-namespace AliAwwad\CreateRelationOnResource;
+namespace Netsells\CreateRelationOnResource;
 
 // use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\BelongsTo;

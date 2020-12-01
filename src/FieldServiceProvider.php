@@ -1,6 +1,6 @@
 <?php
 
-namespace AliAwwad\CreateRelationOnResource;
+namespace Netsells\CreateRelationOnResource;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

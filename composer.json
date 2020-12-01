@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AliAwwad\\CreateRelationOnResource\\": "src/"
+            "Netsells\\CreateRelationOnResource\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AliAwwad\\CreateRelationOnResource\\FieldServiceProvider"
+                "Netsells\\CreateRelationOnResource\\FieldServiceProvider"
             ]
         }
     },
