@@ -96,7 +96,7 @@ export default {
         `/nova-api/${this.resourceName}/creation-fields`
       )
       const fields = data.fields ? data.fields : data
-      fields.forEach((field, key) => {
+      Object.entries(fields).forEach((field, key) => {
         if (this.fillValues[field.attribute]) {
           fields[key] = { ...field, ...this.fillValues[field.attribute] }
         }
